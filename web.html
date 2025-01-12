@@ -36,7 +36,7 @@
             text-align: center;
             padding: 4rem 2rem;
             background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
-            color: white;
+            color:  #555;
         }
 
         .hero h1 {
@@ -98,15 +98,19 @@
             margin-top: 2rem;
         }
     </style>
+    <script>
+        function redirectToProducts() {
+            window.location.href = "products.html";
+        }
+    </script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-
         <div class="logo">
-            <h1><a href="#">RHK_MART</a></h1>
             <a href="#">
-                <img src=""C:\Users\lenovo\Downloads\RHK_MART_LOGO.png"" alt="RHK_MART Logo" style="height: 50px;">
+            <h1><img src="RHK_MART_LOGO.png" alt="RHK_MART Logo" style="height: 50px;"> <a href="#">RHK_MART  </a></h1>
             </a>
         </div>
         <nav>
@@ -124,29 +128,29 @@
 
     <section class="products">
         <div class="product">
-            <img src="https://via.placeholder.com/300" alt="HeadPhone">
+            <img src="download.png" alt="HeadPhone">
             <h2>HeadPhones</h2>
             <p>99 to 4,999RS</p>
             <button onclick="redirectToProducts()">
-                <img src="path-to-logo/logo.png" alt="Cart Icon" style="height: 16px; vertical-align: middle; margin-right: 5px;">
+                <img src="download.png" alt="Cart Icon" style="height: 20px; vertical-align: middle; margin-right: 5px;">
                 Vist Products
             </button>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300" alt="SmartWatch">
+            <img src="download.jpeg" alt="SmartWatch">
             <h2>SmartWatches</h2>
             <p>999 to 9,999RS</p>
             <button onclick="redirectToProducts()">
-                <img src="path-to-logo/logo.png" alt="Cart Icon" style="height: 16px; vertical-align: middle; margin-right: 5px;">
+                <img src="download.jpeg" alt="Cart Icon" style="height: 20px; vertical-align: middle; margin-right: 5px;">
                 Vist Products
             </button>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300" alt="SmartPhone">
+            <img src="images.jpeg" alt="SmartPhone">
             <h2>SmartPhones</h2>
             <p>9,999 to 1,59,999RS</p>
             <button onclick="redirectToProducts()">
-                <img src="path-to-logo/logo.png" alt="Cart Icon" style="height: 16px; vertical-align: middle; margin-right: 5px;">
+                <img src="images.jpeg" alt="Cart Icon" style="height: 20px; vertical-align: middle; margin-right: 5px;">
                 Vist Products
             </button>
         </div>
@@ -158,17 +162,3 @@
 </body>
 
 </html>
-
-<header>
-    <div class="logo">
-        <a href="#">
-            <img src=""C:\Users\lenovo\Downloads\RHK_MART_LOGO.png"" alt="RHK_MART Logo" style="height: 50px;">
-        </a>
-    </div>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
